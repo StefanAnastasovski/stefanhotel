@@ -1,8 +1,12 @@
 app name: stefanhotel
 
-About Stefan Anastasovski, ext18116 Web Programming - Faculty of Computer Science and Engeneering, Skopje
+About 
+Stefan Anastasovski, 
+ext18116 Web Programming - Faculty of Computer Science and Engeneering, Skopje
 
-Description of the application Целта на проектот е да се обезбеди од клиентска страна најава на страната и резервација/нарачки во хотелот. Функционалности:
+Description of the application:
+Целта на проектот е да се обезбеди од клиентска страна најава на страната и резервација/нарачки во хотелот. 
+Функционалности:
 
 Sign Up на страна
 Login на страна
