@@ -1,0 +1,42 @@
+.order-container{
+        height: 100vh;
+        position: relative;
+}
+
+.order-container .order-main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.reservation-services-gallery, .reservation-menu-gallery {
+    height: 300px;
+}
+
+.reservation-services-gallery img, .reservation-menu-gallery img {
+    border-radius: 40px;
+    padding: 20px;
+}
+.text-additional-request-size{
+    font-size:  0.8rem !important;
+    text-align: left;
+}
+.meal-order{
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.meal-ingredients{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+/*.meal-ingredients p, .meal-ingredients h6{*/
+/*    padding: 20px*/
+/*}*/
+
+.meal-ingredients-text{
+    padding: 10px 20px;
+}

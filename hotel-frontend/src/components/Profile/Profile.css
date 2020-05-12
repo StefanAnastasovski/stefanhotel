@@ -1,0 +1,62 @@
+.profile-container {
+    height: 100vh;
+    position: relative;
+}
+
+.profile .profile-main, .profile .payment-information-main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile p {
+    margin-bottom: 5px;
+}
+
+.profile .new-email-field {
+    padding: 5px 5px;
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid #3478bf;
+}
+
+.profile .btn-submit-new-email {
+    margin-left: 10px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: 1px solid #3478bf;
+    background-color: #0c5460;
+    color: white
+}
+
+.profile .btn-bill-payment-info {
+    border: 1px solid #3478bf;
+    background-color: #0c5460;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 20px;
+}
+
+.profile .btn-bill-payment-info:hover {
+    background-color: #04b8b8;
+    color: #0c5460;
+    font-weight: bold;
+}
+
+.profile .bill-card-border {
+    border: 2px solid #775eff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.profile .card-information {
+    border-radius: 10px;
+    padding: 5px 3px;
+    border: 1px solid grey;
+}
+
+.footer.footer-absolute{
+    /*position: fixed !important;*/
+    bottom: 0;
+}

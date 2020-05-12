@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+/*---------overrides--------*/
+
+
+.col, .container{
+  padding:0 !important;
+}
+
+.row{
+  margin:0 !important;
+}
+
+
+/*-------------------------*/
+
+
+.text-color-title{
+    color: #359eb9;
+}
+
+.new-line{
+    display: block;
+}
+
+
+/*-------------------------*/
+
+
+#root .header, #root .footer{
+    background-color: #0c5460;
+    color:white;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 2000000000;
+}
+
+.logo-hotel{
+    /*width: 80px;*/
+    height: 60px;
+    border-radius: 20px;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+    padding-left: .5rem;
+}
+
+.footer {
+    width:100%;
+}
+
+.footer-absolute{
+    position: absolute;
+    bottom: 0;
+}
+
+.layout-container{
+   min-height: 100%;
+   background-image: url("../images/background.jpg");
+   background-size:cover;
+ }
+
+/*--------------------*/

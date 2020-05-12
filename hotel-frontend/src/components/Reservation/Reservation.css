@@ -1,0 +1,87 @@
+.reservation-container{
+    height: 100vh;
+    position: relative;
+}
+
+.reservation-container .reservation-main, .reservation-container .room,
+.reservation-container .table{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reservation > p{
+    font-size: 1.2em !important;
+}
+
+.reservation .res-btn{
+    background-color: rgba(173, 216, 230, 0.35) !important;
+    padding: 1em 4em;
+
+}
+
+.reservation-table-gallery, .reservation-room-gallery {
+    height: 300px;
+}
+
+.reservation-table-gallery img, .reservation-room-gallery img{
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.reservation-button{
+    /*position: relative;*/
+}
+
+/*room-table*/
+
+.react-datepicker-wrapper {
+    width: 100%;
+    padding-right: 3px;
+}
+
+.react-datepicker-wrapper input {
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.react-time-picker {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+
+.react-time-picker__wrapper {
+    border: 0 !important;
+}
+
+.reserve-btn {
+    padding: 10px 0 !important;
+    color: white;
+    background-color: #0c5460;
+}
+
+.reserve-btn:hover {
+    background: #bebebe;
+    color: #0c5460;
+    border: 1px solid #0c5460 !important;
+}
+
+.reservation-image {
+    height: 100%;
+    padding: 20px;
+}
+
+.res-img {
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+.select-reservation{
+    border-radius: 10px;
+    padding: 2px;
+}

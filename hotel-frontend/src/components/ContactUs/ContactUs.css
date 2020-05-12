@@ -1,0 +1,11 @@
+.contactus-container{
+    height: 100vh;
+    position: relative;
+}
+
+.contactus-container .contact-us-main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

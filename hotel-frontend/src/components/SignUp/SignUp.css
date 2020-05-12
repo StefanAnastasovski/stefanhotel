@@ -1,0 +1,10 @@
+.signup-container {
+    height: 100vh;
+}
+
+.signup-container .signup-main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

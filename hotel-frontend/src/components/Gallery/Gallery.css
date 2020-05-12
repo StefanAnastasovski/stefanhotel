@@ -1,0 +1,31 @@
+.top-50{
+    top: 50%;
+}
+.pos-left{
+    left:0;
+}
+.pos-right{
+    right:0;
+}
+.bg-white-20{
+    background-color: rgba(255,255,255,0.6) !important;
+    border-width: 3px !important;
+}
+.text-20px{
+    font-size: 20px !important;
+}
+
+.hotel-gallery-img-height{
+    /*problem-1*/
+    height: 70vh;
+}
+
+.gallery-container {
+    height: 100vh;
+    position: relative;
+}
+
+.gallery-container .footer.footer-absolute{
+    /*problem-1*/
+    z-index: 10000;
+}
